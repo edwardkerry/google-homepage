@@ -1,0 +1,171 @@
+*{
+  text-decoration:none;
+  font-family: Arial, sans-serif;
+  font-size: small;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover{
+  text-decoration: underline; 
+}
+
+.navbar {
+	position: fixed;
+	text-align: right;
+  left:0px;
+  top:0px;
+  width:95%;
+}
+
+.navbar img {
+	height: 15px;
+	width: 15px;
+  margin-right: -10px;
+  opacity: .6;
+}
+
+.apps {
+  margin-bottom: 3px;
+}
+.navbar .bell {
+  height: 21px;
+  width: 21px;
+}
+
+.navbar .round {
+	border-radius: 100%;
+	height:32px;
+	width:32px;
+  margin-bottom: -3px;
+  opacity:1;
+}
+
+.bell:hover, .apps:hover, .round:hover{
+  cursor: default;
+  opacity: 1;
+}
+
+li {
+  position: relative;
+  display: inline;
+  vertical-align: middle;
+  padding-left: 25px;
+  color: #000;
+  margin: auto;
+}
+
+/*the search zone*/
+#centerPiece {
+    margin:auto;
+    height:250px;
+    width:50%;
+  }
+
+.logo{
+    display: block;
+    margin:auto;
+    margin-top: 200px;
+    width: 265px;
+    height: 95px;
+ }
+
+ p{
+  position: absolute;
+  color:#777;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 500px;
+  margin-top: -25px;
+ }
+
+input{
+    display: block;
+    margin:auto;
+    margin-top: 25px;
+    height:25px;
+    width: 535px;
+    padding-left: 10px;
+    padding-right:30px;
+  }
+
+input:hover{
+  border-color:#f5f5f5;
+}
+
+.mic {
+  position: absolute;
+  z-index:0;
+  height:20px;
+  margin: auto;
+  margin-left: 675px;
+  margin-top: 30px;
+  opacity: 0.6;
+}
+
+.mic:hover{
+  opacity:1;
+  cursor: pointer;
+}
+
+#buttonZone {
+    text-align: center;
+    width:100%;
+    height:20px; 
+}
+
+button{
+    border-radius: 2px;
+    text-align: center;
+    margin-top: 20px;
+    display:inline-block;
+    width: 110px;
+    height:28px;
+    background:#f2f2f2;
+    border:solid;
+    border-width: 1px;
+    border-color: #e4e4e4;
+    color: #444;
+    font-weight: bold;
+    font-size: .9em;
+}
+
+.lucky{
+    margin-left:10px;
+    width:140px;
+}
+
+button:hover{
+  background: #f5f5f5;
+}
+
+/* the footer */
+
+#footer{
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:40px;
+  width:100%;
+  background:#f2f2f2;
+  border-top:solid;
+  border-width: 1px;
+  border-color: #e4e4e4;
+}
+
+.r_footer, .l_footer{
+  display:inline-block;
+}
+
+.r_footer {
+  position:absolute;
+  right:30px;
+}
+
+.l_footer {
+  position: absolute;
+  left:-30px;
+}
